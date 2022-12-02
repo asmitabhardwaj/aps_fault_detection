@@ -1,4 +1,14 @@
+
+
+class TrainingPipelineConfig:
+
+    def __init(self):
+        self.artifact_dir = os.path.join(os.getcwd(),"artifact",f"{datetime.now().strftime('%m%d%Y__%H%M%S')}"
+)
+
 class DataIngestionArtifact:...
+
+
 class DataValidationArtifact:...
 class DataTransformationArtifact:...
 class ModelTrainerArtifact:...
